@@ -15,5 +15,5 @@ patches:
         value: --key-renew-period=720h
       - op: replace
         path: /spec/template/spec/containers/0/image
-        value: quay.io/codefresh/sealed-secrets-controller:v0.17.5
+        value: quay.io/eti_zaguri/sealed-secrets-controller:v0.17.5
   
